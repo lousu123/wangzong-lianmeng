@@ -1,187 +1,308 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<title>关于汪总餐饮联盟项目的试点合作方案</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f7fa;color:#2d2d2d;line-height:1.8}
-.cover{background:linear-gradient(135deg,#1a237e 0%,#283593 100%);color:#fff;padding:60px 24px 50px;text-align:center;position:relative}
-.cover .tag{display:inline-block;background:rgba(255,255,255,0.15);padding:6px 18px;border-radius:50px;font-size:12px;letter-spacing:2px;margin-bottom:22px}
-.cover h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;margin-bottom:10px;letter-spacing:1px}
-.cover .sub{font-size:15px;opacity:.85;margin-bottom:20px;line-height:1.6}
-.cover .meta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-.cover .meta span{background:rgba(255,255,255,0.1);padding:5px 14px;border-radius:6px;font-size:12px}
-.container{max-width:800px;margin:0 auto;padding:0 20px}
-.section{padding:40px 0}
-.section-title{font-size:clamp(1.2rem,3vw,1.5rem);font-weight:700;color:#1a237e;margin-bottom:6px;display:flex;align-items:center;gap:10px}
-.section-title .num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background:#1a237e;color:#fff;border-radius:50%;font-size:14px;font-weight:700;flex-shrink:0}
-.section-subtitle{color:#999;font-size:13px;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid #e8eaf6}
-.card{background:#fff;border-radius:12px;padding:24px;margin-bottom:16px;box-shadow:0 1px 8px rgba(0,0,0,0.06);border-left:4px solid #3f51b5}
-.card h3{font-size:1rem;font-weight:600;color:#1a237e;margin-bottom:10px;display:flex;align-items:center;gap:8px}
-.card p{color:#555;font-size:14.5px;margin-bottom:8px}
-.card ul{list-style:none;padding:0}
-.card ul li{padding:7px 0 7px 24px;position:relative;color:#555;font-size:14.5px;border-bottom:1px dashed #f0f0f0}
-.card ul li:last-child{border-bottom:none}
-.card ul li::before{content:'';position:absolute;left:6px;top:14px;width:8px;height:8px;border-radius:50%;background:#3f51b5}
-.card ul li strong{color:#1a237e}
-.highlight-box{background:linear-gradient(135deg,#e8eaf6,#f5f5f5);border-radius:10px;padding:18px;margin:14px 0;border:1px solid #c5cae9}
-.highlight-box h4{color:#1a237e;font-size:14px;margin-bottom:6px}
-.highlight-box p{color:#555;font-size:14px}
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.footer-bar{background:#1a237e;color:rgba(255,255,255,0.85);text-align:center;padding:28px 20px;font-size:13px;margin-top:20px}
-.footer-bar strong{color:#ffd54f}
-.speak-box{background:#fff8e1;border-left:4px solid #ffb300;padding:16px 20px;border-radius:0 10px 10px 0;margin:18px 0;font-size:14px;color:#6d5200;position:relative}
-.speak-box::before{content:'苏苏：';position:absolute;top:-12px;left:16px;background:#ffb300;color:#fff;font-size:11px;padding:2px 12px;border-radius:12px;font-weight:600}
-.speak-box strong{color:#e65100}
-.speak-box-light{background:#e8eaf6;border-left:4px solid #3f51b5;padding:16px 20px;border-radius:0 10px 10px 0;margin:18px 0;font-size:14px;color:#333;position:relative}
-.speak-box-light::before{content:'苏苏：';position:absolute;top:-12px;left:16px;background:#3f51b5;color:#fff;font-size:11px;padding:2px 12px;border-radius:12px;font-weight:600}
-.speak-box-light strong{color:#1a237e}
-.role-box{display:flex;gap:16px;margin:14px 0}
-.role-item{flex:1;background:#fff;border-radius:10px;padding:18px;text-align:center;border:1px solid #e8eaf6}
-.role-item .icon{font-size:28px;margin-bottom:6px}
-.role-item .name{font-weight:700;color:#1a237e;font-size:14px;margin-bottom:4px}
-.role-item .desc{color:#888;font-size:12px;line-height:1.5}
-@media(max-width:768px){.two-col{grid-template-columns:1fr}.section{padding:30px 0}.card{padding:18px}.role-box{flex-direction:column}}
-</style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+ <title>汪总餐饮联盟项目 · 试点合作方案</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+ background: #f5f7fa;
+ padding: 20px 16px 60px;
+ color: #1a1a2e;
+ }
+ .container {
+ max-width: 420px;
+ margin: 0 auto;
+ background: #ffffff;
+ border-radius: 20px;
+ padding: 28px 20px 32px;
+ box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+ }
+ .badge {
+ display: inline-block;
+ background: #eef2ff;
+ color: #4f46e5;
+ font-size: 12px;
+ font-weight: 600;
+ padding: 4px 12px;
+ border-radius: 20px;
+ margin-bottom: 12px;
+ letter-spacing: 0.3px;
+ }
+ h1 {
+ font-size: 22px;
+ font-weight: 700;
+ line-height: 1.4;
+ color: #0a0a1a;
+ margin-bottom: 6px;
+ }
+ .sub {
+ font-size: 14px;
+ color: #6b7280;
+ margin-bottom: 24px;
+ border-left: 3px solid #4f46e5;
+ padding-left: 12px;
+ background: #f9fafb;
+ border-radius: 0 8px 8px 0;
+ line-height: 1.5;
+ }
+ .section {
+ margin-top: 24px;
+ }
+ .section-title {
+ font-size: 16px;
+ font-weight: 700;
+ color: #0a0a1a;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ margin-bottom: 10px;
+ }
+ .section-title .num {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ background: #4f46e5;
+ color: #fff;
+ width: 22px;
+ height: 22px;
+ border-radius: 50%;
+ font-size: 13px;
+ font-weight: 600;
+ flex-shrink: 0;
+ }
+ .card {
+ background: #f9fafb;
+ border-radius: 14px;
+ padding: 16px 16px 14px;
+ margin-bottom: 12px;
+ }
+ .card p {
+ font-size: 15px;
+ line-height: 1.7;
+ color: #1f2937;
+ }
+ .card .highlight {
+ background: #eef2ff;
+ padding: 2px 8px;
+ border-radius: 6px;
+ color: #4f46e5;
+ font-weight: 500;
+ }
+ .card .tag {
+ display: inline-block;
+ background: #e5e7eb;
+ color: #374151;
+ font-size: 12px;
+ font-weight: 500;
+ padding: 1px 10px;
+ border-radius: 12px;
+ margin-right: 4px;
+ }
+ .divider {
+ height: 1px;
+ background: #e5e7eb;
+ margin: 22px 0 18px;
+ }
+ .investment-box {
+ background: #f0fdf4;
+ border-left: 4px solid #16a34a;
+ border-radius: 0 14px 14px 0;
+ padding: 16px 16px 12px;
+ margin: 10px 0 6px;
+ }
+ .investment-box .label {
+ font-size: 13px;
+ font-weight: 600;
+ color: #15803d;
+ display: flex;
+ align-items: center;
+ gap: 6px;
+ }
+ .investment-box ul {
+ margin-top: 8px;
+ padding-left: 18px;
+ font-size: 14px;
+ line-height: 1.8;
+ color: #1f2937;
+ }
+ .investment-box ul li {
+ list-style-type: disc;
+ }
+ .fee-note {
+ background: #fffbeb;
+ border-radius: 14px;
+ padding: 16px 16px 12px;
+ border: 1px solid #fde68a;
+ margin: 14px 0 6px;
+ }
+ .fee-note strong {
+ color: #b45309;
+ }
+ .fee-note p {
+ font-size: 14px;
+ line-height: 1.7;
+ color: #78350f;
+ margin-top: 4px;
+ }
+ .cta-box {
+ background: #f1f5f9;
+ border-radius: 14px;
+ padding: 16px 16px 14px;
+ margin-top: 20px;
+ }
+ .cta-box p {
+ font-size: 15px;
+ line-height: 1.7;
+ color: #1e293b;
+ }
+ .cta-box .btn-label {
+ display: inline-block;
+ margin-top: 10px;
+ background: #4f46e5;
+ color: #fff;
+ font-weight: 600;
+ font-size: 15px;
+ padding: 8px 20px;
+ border-radius: 30px;
+ text-align: center;
+ width: 100%;
+ box-sizing: border-box;
+ letter-spacing: 0.5px;
+ }
+ .footnote {
+ font-size: 12px;
+ color: #9ca3af;
+ text-align: center;
+ margin-top: 18px;
+ line-height: 1.6;
+ }
+ .inline-code {
+ background: #e5e7eb;
+ padding: 1px 8px;
+ border-radius: 4px;
+ font-size: 13px;
+ color: #1f2937;
+ }
+ .clickable {
+ cursor: default;
+ }
+ </style>
 </head>
 <body>
-<div class="cover">
-  <div class="tag">🤝 试点合作方案 · 苏苏呈</div>
-  <h1>关于汪总餐饮联盟项目<br>试点合作方案</h1>
-  <div class="sub">—— 用年卡券整合多品牌餐饮门店 · 美团收银技术底座 ——</div>
-  <div class="meta">
-    <span>📅 2026年8月</span>
-    <span>📍 广州</span>
-    <span>💡 苏苏 · 美团收银</span>
-  </div>
-</div>
 <div class="container">
-<div class="section">
-  <div class="section-title"><span class="num">一</span>我们对您模式的理解</div>
-  <div class="section-subtitle">先看懂您在做什么，再谈怎么合作</div>
-  <div class="card">
-    <p>汪总，您用年卡券整合多品牌餐饮门店，实现跨店通兑核销，本质是在做一个<strong>餐饮联盟平台</strong>。</p>
-    <p style="margin-top:10px;">这个模式的核心壁垒在于：</p>
-    <ul>
-      <li><strong>分账规则要清晰</strong>——消费者在A店消费，B店和您之间如何自动分账，不能靠人工对账</li>
-      <li><strong>数据看板要统一</strong>——所有门店的经营数据、核销数据，您一个后台全能看到</li>
-      <li><strong>商家管理要轻量</strong>——不能每个商家都派人驻场，系统要能远程管、自动跑</li>
-    </ul>
-  </div>
-  <div class="speak-box-light">
-    <strong>我们内部讨论后判断：</strong>这个模式在逻辑上<strong>跑得通</strong>，但需要先小范围验证，而不是一上来铺所有店。
-  </div>
-</div>
-<div class="section">
-  <div class="section-title"><span class="num">二</span>我们建议的切入方式：最小可行性试点（MVP）</div>
-  <div class="section-subtitle">小范围试跑，跑通再推开</div>
-  <div class="card">
-    <p>建议先用<strong>1-2家门店</strong>做小范围试跑，目标是跑通以下三个环节：</p>
-  </div>
-  <div class="two-col">
-    <div class="card" style="border-left-color:#43a047;">
-      <h3>✅ 核销环节</h3>
-      <p style="font-size:13.5px;color:#888;">年卡券在不同门店如何识别、如何核销</p>
-      <ul>
-        <li>消费者持年卡券到任意门店，收银端<strong>一键识别</strong></li>
-        <li>核销记录实时同步，<strong>不重不漏</strong></li>
-        <li>支持跨店次数/金额核销规则配置</li>
-      </ul>
-    </div>
-    <div class="card" style="border-left-color:#fb8c00;">
-      <h3>💰 分账环节</h3>
-      <p style="font-size:13.5px;color:#888;">联盟方与门店之间如何自动结算、对账</p>
-      <ul>
-        <li>每次核销自动按<strong>预设比例分账</strong></li>
-        <li>T+1自动结算到各方账户</li>
-        <li>分账明细<strong>可查可追溯</strong>，月底不扯皮</li>
-      </ul>
-    </div>
-    <div class="card" style="border-left-color:#1e88e5;">
-      <h3>📊 管理环节</h3>
-      <p style="font-size:13.5px;color:#888;">您在后台能看到什么经营看板、怎么用数据</p>
-      <ul>
-        <li>所有门店<strong>经营看板</strong>实时汇总</li>
-        <li>年卡券核销趋势、热力图</li>
-        <li>各门店<strong>健康度评分</strong>，异常自动预警</li>
-      </ul>
-    </div>
-  </div>
-  <div class="highlight-box" style="border-left-color:#e65100;background:linear-gradient(135deg,#fff3e0,#fff);">
-    <h4>⏱ 试点周期建议</h4>
-    <p><strong>2-4周</strong>，时间够短、范围够小，<strong>风险完全可控</strong>。</p>
-  </div>
-  <div class="speak-box">
-    <strong>我的建议：</strong>先拿您关系最铁的一家店做试点。我帮您用美团收银把线上团购核销跑通，您看一个月能省多少事、多赚多少钱。<strong>案例出来了，其他商家自然信服。</strong>
-  </div>
-</div>
-<div class="section">
-  <div class="section-title"><span class="num">三</span>双方各自的投入</div>
-  <div class="section-subtitle">这事要一起投，不是单方面服务</div>
-  <div class="role-box">
-    <div class="role-item">
-      <div class="icon">👤</div>
-      <div class="name">汪总您这边</div>
-      <div class="desc">
-        选定1-2家配合度高的门店<br>
-        梳理清楚分账规则（谁分多少、什么时候分）<br>
-        承担试点期间的系统服务成本<br>
-      </div>
-    </div>
-    <div class="role-item">
-      <div class="icon">🤝</div>
-      <div class="name">我们这边</div>
-      <div class="desc">
-        广州团队上门实施+系统配置<br>
-        总部技术支持+远程陪跑<br>
-        试点期间的运营问题响应<br>
-      </div>
-    </div>
-  </div>
-  <div class="card" style="border-left-color:#e65100;background:linear-gradient(135deg,#fff8e1,#fff);">
-    <h3>💬 关于系统服务成本的说明</h3>
-    <p>汪总，我说句实话——这个费用不是"买软件的钱"，而是<strong>验证您商业模式的第一笔投入</strong>。</p>
-    <p style="margin-top:10px;">免费的东西，我们公司内部不会配专人服务，您拿到的就是一套裸系统，配置、实施、问题响应都没有保障。那对您来说反而是浪费时间，也试不出真实效果。</p>
-    <p style="margin-top:10px;">所以我的建议是：<strong>您出系统服务成本，我们出人出技术，双方都认真押注在这个试点上。</strong></p>
-    <p style="margin-top:10px;">成本我按最小方案给您报，控制在您能接受的范围。<strong>跑通了，您拿着数据去整合更多商家；跑砸了，小成本试错，不影响大局。</strong></p>
-  </div>
-  <div class="speak-box-light" style="border-left-color:#1a237e;">
-    <strong>具体的服务成本明细和报价，我单独发给您。</strong>您先看，觉得合理咱们再往下推进。
-  </div>
-</div>
-<div class="section">
-  <div class="section-title"><span class="num">四</span>下一步动作</div>
-  <div class="section-subtitle">落地从一次碰面开始</div>
-  <div class="card" style="border-left-color:#43a047;">
-    <h3>📅 这周我们先碰一下分账规则</h3>
-    <p>我带技术同事一起，把规则理清楚后出实施方案：</p>
-    <ul>
-      <li>年卡券的<strong>定价逻辑</strong>和<strong>利润分配比例</strong></li>
-      <li>消费者跨店消费的<strong>核销规则</strong>（次数/金额/有效期）</li>
-      <li>各门店的<strong>结算周期</strong>和<strong>对账方式</strong></li>
-      <li>确定<strong>试点门店</strong>及上线时间节点</li>
-    </ul>
-  </div>
-  <div class="speak-box" style="margin-top:4px;">
-    <strong>您看周三还是周四方便？</strong>我让广州同事直接去您那，一个小时左右，把规则理清楚。
-  </div>
-</div>
-<div class="section" style="padding-bottom:20px;">
-  <div class="card" style="border-left:4px solid #ffb300;background:linear-gradient(135deg,#fff8e1,#fff);">
-    <h3>🎯 一句话跟您说清楚</h3>
-    <p style="font-size:15px;line-height:1.8;">
-      <strong>"汪总，我不是来卖您一套软件的，是来给您一个「整合别人的工具」的。</strong><br>
-      美团收银可以成为您餐饮联盟平台的<strong>技术底座</strong>——让您的年卡券分账自动算清楚，让您随时掌握所有商家的经营数据，帮您降低招商难度。<br>
-      <strong style="color:#e65100;">先试跑，跑通了再全面推开，风险最低、效果最好。</strong>"
-    </p>
-  </div>
-</div>
-</div>
-<div class="footer-bar">
-  <p>关于汪总餐饮联盟项目的试点合作方案</p>
-  <p style="margin-top:4px;"><strong>苏苏</strong> | 美团智能版收银系统 | 2026年8月</p>
+
+ <div class="badge">🤝 试点合作方案 · 苏苏呈</div>
+ <h1>关于汪总餐饮联盟项目<br>试点合作方案</h1>
+ <div class="sub">用年卡券整合多品牌餐饮门店 · 美团收银技术底座</div>
+
+ <!-- 一、理解 -->
+ <div class="section">
+   <div class="section-title"><span class="num">一</span>我们对您模式的理解</div>
+   <div class="card">
+     <p>汪总，您用年卡券整合多品牌餐饮门店，实现跨店通兑核销，本质是在做一个<strong>餐饮联盟平台</strong>。</p>
+   </div>
+   <div class="card">
+     <p>这个模式的核心壁垒在于：</p>
+     <p style="margin-top:6px;">🔹 <strong>分账规则要清晰</strong> — 消费者在A店消费，B店和您之间如何自动分账，不能靠人工对账</p>
+     <p style="margin-top:4px;">🔹 <strong>数据看板要统一</strong> — 所有门店经营数据、核销数据，您一个后台全能看到</p>
+     <p style="margin-top:4px;">🔹 <strong>商家管理要轻量</strong> — 不能每个商家都派人驻场，系统要能远程管、自动跑</p>
+   </div>
+   <div class="card" style="background:#eef2ff;border-left:3px solid #4f46e5;border-radius:0 14px 14px 0;">
+     <p><strong>我们内部讨论后判断：</strong>这个模式在逻辑上<span class="highlight">跑得通</span>，但需要先小范围验证，而不是一上来铺所有店。</p>
+   </div>
+ </div>
+
+ <!-- 二、MVP -->
+ <div class="section">
+   <div class="section-title"><span class="num">二</span>建议切入方式：最小可行性试点（MVP）</div>
+   <div class="card">
+     <p>建议先用<strong>1-2家门店</strong>做小范围试跑，跑通以下三个环节：</p>
+   </div>
+   <div class="card">
+     <p><span class="tag">✅ 核销</span> 年卡券在不同门店如何识别、一键核销，记录实时同步</p>
+   </div>
+   <div class="card">
+     <p><span class="tag">💰 分账</span> 联盟方与门店之间自动按比例结算、对账，月底不扯皮</p>
+   </div>
+   <div class="card">
+     <p><span class="tag">📊 管理</span> 您后台能看到所有门店经营看板、核销趋势，用数据做招商决策</p>
+   </div>
+   <div class="card" style="background:#f0fdf4;border-left:3px solid #16a34a;border-radius:0 14px 14px 0;">
+     <p>⏱ <strong>试点周期：2-4周</strong> — 时间够短、范围够小，<strong>风险完全可控</strong></p>
+   </div>
+ </div>
+
+ <!-- 三、投入 -->
+ <div class="section">
+   <div class="section-title"><span class="num">三</span>双方各自的投入</div>
+
+   <div class="investment-box">
+     <div class="label">👤 汪总您这边</div>
+     <ul>
+       <li>选定1-2家配合度高的门店</li>
+       <li>梳理清楚分账规则（谁分多少、什么时候分）</li>
+       <li>承担试点期间的系统服务成本</li>
+     </ul>
+   </div>
+
+   <div class="investment-box" style="border-left-color:#4f46e5;background:#eef2ff;">
+     <div class="label" style="color:#4338ca;">🤝 我们这边</div>
+     <ul>
+       <li>广州团队上门实施 + 系统配置</li>
+       <li>总部技术支持 + 远程陪跑</li>
+       <li>试点期间的运营问题响应</li>
+     </ul>
+   </div>
+
+   <div class="fee-note">
+     <strong>💬 关于系统服务成本的说明</strong>
+     <p>汪总，我说句实话——这个费用不是"买软件的钱"，而是<strong>验证您商业模式的第一笔投入</strong>。</p>
+     <p style="margin-top:6px;">免费的东西，我们公司内部不会配专人服务，您拿到的就是一套裸系统，配置、实施、问题响应都没有保障。那对您来说反而是浪费时间，也试不出真实效果。</p>
+     <p style="margin-top:6px;">所以我的建议是：<strong>您出系统服务成本，我们出人出技术，双方都认真押注在这个试点上。</strong></p>
+     <p style="margin-top:6px;">成本我按最小方案给您报，控制在您能接受的范围。<strong>跑通了，您拿着数据去整合更多商家；跑砸了，小成本试错，不影响大局。</strong></p>
+     <p style="margin-top:8px;font-weight:600;color:#b45309;">具体的服务成本明细和报价，我单独发给您。您先看，觉得合理咱们再往下推进。</p>
+   </div>
+ </div>
+
+ <!-- 四、下一步 -->
+ <div class="section">
+   <div class="section-title"><span class="num">四</span>下一步动作</div>
+   <div class="card">
+     <p><strong>📅 这周我们先碰一下分账规则</strong></p>
+     <p style="margin-top:6px;">我带技术同事一起，把以下事情理清楚：</p>
+     <p style="margin-top:6px;">🔹 年卡券的定价逻辑和利润分配比例</p>
+     <p>🔹 消费者跨店消费的核销规则（次数/金额/有效期）</p>
+     <p>🔹 各门店的结算周期和对账方式</p>
+     <p>🔹 确定试点门店及上线时间节点</p>
+   </div>
+   <div class="cta-box">
+     <p><strong>您看周三还是周四方便？</strong></p>
+     <p style="margin-top:4px;font-size:14px;color:#6b7280;">我让广州同事直接去您那，一个小时左右，把规则理清楚。</p>
+     <div class="btn-label">📅 约时间碰面</div>
+   </div>
+ </div>
+
+ <div class="divider"></div>
+
+ <div class="card" style="background:#fffbeb;border:1px solid #fde68a;">
+   <p style="font-size:14px;line-height:1.8;">
+     <strong>🎯 一句话跟您说清楚</strong><br>
+     "汪总，我不是来卖您一套软件的，是来给您一个<strong>整合别人的工具</strong>的。美团收银可以成为您餐饮联盟平台的<strong>技术底座</strong>——让您的年卡券分账自动算清楚，让您随时掌握所有商家的经营数据，帮您降低招商难度。<br>
+     <span style="color:#b45309;font-weight:600;">先试跑，跑通了再全面推开，风险最低、效果最好。</span>"
+   </p>
+ </div>
+
+ <div class="footnote">
+   <strong>苏苏</strong> · 美团智能版收银系统 · 2026年8月
+ </div>
+
 </div>
 </body>
 </html>
